@@ -1,104 +1,152 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8"><!-- caracteres especiales -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--responsive -->
-    <title>Hoja de vida - Laura Larrotta</title>
+    <meta charset="uft-8" />
+
+    <title>Hoja de vida - Nombre estudiante </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 
-<body>
-    <div style="text-align:center; padding: 20px ">
-        <!-- imagenes -->
-        <img src="https://www.fifpro.org/media/fhmfhvkx/messi-world-cup.jpg?rxy=0.48356841796117644,0.31512414378031967&width=1600&height=1024&rnd=133210253587130000"
-            alt="foto" width="100" height="100" style="border-radius: 50%;">
+<body class="container">
+    <div class="body">
+        <div class="header-container">
+            <div class="header">
+                <div class="card">
+                    <div class="profile-img-container">
+                        <!--imagen del estudiante-->
+                    </div>
+                    <div class="profile-information">
+                        <!--nombre y especialidad-->
+                        <h1 class="name"> HERNANDEZ LARROTTA</h1>
+                        <h2 class="last-name"> LAURA LORENA</h2>
+                        <P class="profession"> Administradora de empresas & Desarrolladora Web </P>
+                    </div>
+                </div>
+            </div>
 
-        <!-- Nombre -->
-
-        <h1 style="margin:10px 0; font-size: 30px; color:#929292">Larrotta</h1>
-        <h2 style=" color:#ffb71a">Laura Lorena</h2>
-        <p style="font-size: 1.2em; color: #929292;"> Web Developer & front-end Expert</p>
-
+            <!--Informacion de contacto-->
+            <div class="contac-info">
+                <p><strong>Ubicación:</strong> Bogotá D.C</p>
+                <p><strong>Telefonó:</strong> +57 1234567890</p>
+                <p><strong>Website:</strong> www.lauralarrotta.com</p>
+                <p><strong>email:</strong>larrotta.laura@gmail.com</p>
+            </div>
+        </div>
+    </div>
     </div>
 
-    <div style="display:flex ; justify-content:center ; padding: 10px; background-color: #ffb71a; gap: 20px;">
-        <p><strong>Ubicación</strong>Bogotá D.C</p>
-        <p><strong>Telefono:</strong>+57 123456789</p>
-        <p><strong>Website:</strong> www.example.com</p>
-        <p><strong>Email:</strong> 4WwYi@example.com</p>
-    </div>
+    <!--Descripcion personal-->
+    <hr>
+    <section class="personal-description">
+        <h2>Descripcion personal</h2>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quam enim, ex nobis corporis tempore, alias
+            totam nisi dolor cum et? Temporibus, id. Et veniam architecto, sed quis impedit aperiam. </p>
+    </section>
 
-    <section style="padding: 20px">
-        <h2> Experiencia laboral</h2>
-        <table style="width:100; border-collapse: collapse">
-            <tr style="border-bottom: 1px solid #929292;">
-                <td style="width: 30%; padding: 10px; vertical-align: top;">
-                    <b>Nombre De la empresa</b>
-                    <small>01/2021 - 05/2021</small>
+
+    <section class="work-experience">
+        <h2> Experencia Laboral</h2>
+        <table class="experience-table">
+            <tr>
+                <td style="width: 70%;">
+                    <b>NOMBRE DE LA EMPRESA - Atlanta S.A.S</b><br>
+                    <small>08/2018 - 05/2021 </small>
                 </td>
-                <td style="width: 70%; padding: 10px; vertical-align: top;">
-                    <strong>Desarrolladora Web</strong>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt magnam placeat dolor repellat
-                        eveniet nemo numquam, iusto quis neque, consectetur exercitationem dolores quam ipsa veniam. Id
-                        reprehenderit iure hic nesciunt!</p>
+                <td style="width: 70%;">
+                    <strong style="color: #dd11f0;"> Soporte IT</strong><br>
+                    <p>Controlar, verificar y ejercer la supervisión en diferentes puestos, de acuerdo a las
+                        necesidades de la Empresa.</p><br>
+                    <p> Recepción de documentos, vigilar y custodia del bien inmueble donde se me
+                        asigne para el servicio de seguridad.</p>
                 </td>
-            </tr>
-            <tr style="border-bottom: 1px solid #929292;">
-                <td style="width: 30%; padding: 10px; vertical-align: top;">
-                    <b>Nombre De la empresa</b>
-                    <small>01/2021 - 05/2021</small>
+            <tr>
+                <td style="width: 30%;">
+                    <b>NOMBRE DE LA EMPRESA -UNIVERSIDAD ECCI</b>
+                    <small>06/2021 - 07/2024 </small>
                 </td>
-                <td style="width: 70%; padding: 10px; vertical-align: top;">
-                    <strong>Desarrolladora Web</strong>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt magnam placeat dolor repellat
-                        eveniet nemo numquam, iusto quis neque, consectetur exercitationem dolores quam ipsa veniam. Id
-                        reprehenderit iure hic nesciunt!</p>
-                </td>
-            </tr>
-            <tr style="border-bottom: 1px solid #929292;">
-                <td style="width: 30%; padding: 10px; vertical-align: top;">
-                    <b>Nombre De la empresa</b>
-                    <small>01/2021 - 05/2021</small>
-                </td>
-                <td style="width: 70%; padding: 10px; vertical-align: top;">
-                    <strong>Desarrolladora Web</strong>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt magnam placeat dolor repellat
-                        eveniet nemo numquam, iusto quis neque, consectetur exercitationem dolores quam ipsa veniam. Id
-                        reprehenderit iure hic nesciunt!</p>
+
+                <td style="width: 70%;">
+                    <strong style="color: #dd11f0;">Soporte IT</strong><br>
+                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, quam perspiciatis. Autem magnam
+                        quidem repellat quis, explicabo nisi quod optio possimus impedit sed? Impedit neque suscipit
+                        repellendus ab similique necessitatibus?</p>
                 </td>
             </tr>
-            <tr style="border-bottom: 1px solid #929292;">
-                <td style="width: 30%; padding: 10px; vertical-align: top;">
-                    <b>Nombre De la empresa</b>
-                    <small>01/2021 - 05/2021</small>
-                </td>
-                <td style="width: 70%; padding: 10px; vertical-align: top;">
-                    <strong>Desarrolladora Web</strong>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt magnam placeat dolor repellat
-                        eveniet nemo numquam, iusto quis neque, consectetur exercitationem dolores quam ipsa veniam. Id
-                        reprehenderit iure hic nesciunt!</p>
-                </td>
-            </tr>
-            <tr style="border-bottom: 1px solid #929292;">
-                <td style="width: 30%; padding: 10px; vertical-align: top;">
-                    <b>Nombre De la empresa</b>
-                    <small>01/2021 - 05/2021</small>
-                </td>
-                <td style="width: 70%; padding: 10px; vertical-align: top;">
-                    <strong>Desarrolladora Web</strong>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt magnam placeat dolor repellat
-                        eveniet nemo numquam, iusto quis neque, consectetur exercitationem dolores quam ipsa veniam. Id
-                        reprehenderit iure hic nesciunt!</p>
-                </td>
+
+            <td style="width: 30%; padding: 10px;">
+                <b>NOMBRE DE LA EMPRESA - ILPINGENIERIA</b>
+                <small>07/2024 - ACTUAL</small>
+            </td>
+            <td style="width: 70%; padding: 10px;">
+                <strong style="color: #dd11f0;">Soporte IT</strong><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi soluta asperiores aliquid eveniet
+                    minus ipsam sit mollitia dolorum debitis delectus accusantium totam recusandae nisi facilis
+                    molestiae facere inventore, perspiciatis saepe.</p>
+            </td>
             </tr>
         </table>
     </section>
 
-    <section style="padding: 20px">
-        <h2 style="color: #ffb71a;"> Habilidades:</h2>
+    <section class="skill-section">
+        <h2>Habilidades</h2>
+        <table class="skill-table">
+            <tr>
+                <td style="width: 70%;"><strong>HTML/CSS</strong></td>
+                <td style="width: 70%;">
+                    <div
+                        style="background-color: #dd11f0; border-radius: 5px; width: 100%; height: 100%; overflow: hidden; padding: 5px;">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt beatae ipsam quis eveniet!
+                            Temporibus, quidem in veritatis tempore iure perspiciatis, dolorum provident officia
+                            eligendi, impedit ab aut delectus obcaecati minus.</p>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="width: 30px;"><strong>HTML/CSS</strong></td>
+                <td style="width: 70%;">
+                    <div
+                        style="background-color:#dd11f0; border-radius: 5px; width: 100%; height: 100%; overflow: hidden; padding: 5px;">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt beatae ipsam quis eveniet!
+                            Temporibus, quidem in veritatis tempore iure perspiciatis, dolorum provident officia
+                            eligendi, impedit ab aut delectus obcaecati minus.</p>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="width: 30%; padding: 10px; vertical-align: top;"><strong>HTML/CSS</strong></td>
+                <td style="width: 70%; padding: 10px; vertical-align: top;">
+                    <div
+                        style="background-color:#dd11f0; border-radius: 5px; width: 100%; height: 100%; overflow: hidden; padding: 5px;">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt beatae ipsam quis eveniet!
+                            Temporibus, quidem in veritatis tempore iure perspiciatis, dolorum provident officia
+                            eligendi, impedit ab aut delectus obcaecati minus.</p>
+                    </div>
+                </td>
+            </tr>
+
+        </table>
+
+
     </section>
 
 
+
+    </section>
+
+    <script src="index.js"></script>
+    <script src="student.js"></script>
+
+
 </body>
+
 
 </html>
